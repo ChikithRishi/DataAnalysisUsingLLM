@@ -1,0 +1,19 @@
+pip install -q langchain
+pip install -q openai
+
+pip install langchain_experimental
+pip install -U langchain-openai
+
+import streamlit as st 
+from lida import Manager, TextGenerationConfig , llm  
+from dotenv import load_dotenv
+import os
+import openai
+from PIL import Image
+from io import BytesIO
+import base64
+import pandas as pd
+import sqlite3
+from langchain import OpenAI, SQLDatabase
+from langchain_experimental.sql import SQLDatabaseChain
+from langchain_openai import OpenAI
