@@ -13,8 +13,8 @@ from langchain_experimental.sql import SQLDatabaseChain
 from langchain_openai import OpenAI
 
 load_dotenv()
-openai.api_key = os.getenv('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')
-os.environ['OPENAI_API_KEY'] = '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'
+openai.api_key = os.getenv(Your API KEY)
+os.environ['OPENAI_API_KEY'] ='sk-gsrgsrgjsifafoiajff'
 
 def base64_to_image(base64_string):
     # Decode the base64 string
