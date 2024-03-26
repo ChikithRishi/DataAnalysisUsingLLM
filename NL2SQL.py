@@ -3,8 +3,8 @@ import pandas as pd
 import sqlite3
 import os
 
-os.environ['OPENAI_API_KEY'] = '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'
-df = pd.read_csv("C:/Users/chiki/Downloads/quickstart-microsoft-lida-demo-main/data/iris.csv")
+os.environ['OPENAI_API_KEY'] = 'sk-YOur open ai key'
+df = pd.read_csv("C:/Users/chiki/Downloads/iris.csv")
 print(df)
 
 conn = sqlite3.connect('llm_db.sqlite')
